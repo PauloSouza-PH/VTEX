@@ -1,0 +1,9 @@
+{
+  "admin/test": "test",
+  "store/test": "test",
+  "admin-example.navigation.label": "Treinamento de IO",
+  "admin-example.navigation.search.kws": "mock, test, treinamento, io",
+  "admin-example.navigation.insight": "Treinamento MaryJane",
+  "admin-example.navigation.management": "Treinamento Spider Man"
+
+}

@@ -1,0 +1,40 @@
+{
+  "store.custom#about-us": {
+      "blocks": [
+          "flex-layout.row#about-us"
+      ]
+  },
+  "flex-layout.row#about-us": {
+      "children": [
+          "image#about-us",
+          "flex-layout.col#text-about-us"
+      ]
+  },
+  "flex-layout.col#text-about-us": {
+      "children": [
+          "rich-text#about-title",
+          "rich-text#about-content"
+      ],
+      "props": {
+          "preventVerticalStretch": true
+      }
+  },
+  "rich-text#about-title": {
+      "props": {
+      "text":
+          "# Sobre a loja GTX"
+      }
+  },
+  "rich-text#about-content": {
+      "props": {
+      "text":
+          " ### O lugar da inovação _VTEX_ \n A loja inovadora feita para os seus sonhos \n"
+      }
+  },
+  "image#about-us": {
+      "props": {
+      "src": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-about-us.png",
+      "maxHeight": "600px"
+      }
+  }
+}
